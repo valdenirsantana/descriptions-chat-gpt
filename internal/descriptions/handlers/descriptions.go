@@ -12,7 +12,7 @@ import (
 	"chat-gpt/internal/descriptions/dtos"
 )
 
-const apiKey = "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"
+const apiKey = ""
 
 func GetDescriptions(w http.ResponseWriter, r *http.Request) {
 	err, req := buildRequest(r)
